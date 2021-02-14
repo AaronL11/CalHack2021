@@ -1,0 +1,58 @@
+body{
+    max-height: 400px;
+    max-width: 300px;
+    background-image: linear-gradient(to right, #00b7ff, #d689fa);
+  }
+h1{
+  font-size: 40px;
+  text-align:center;
+  color: rgb(255, 255, 255);
+  font-family: Jazz LET, fantasy;
+}
+p{
+  font-size: 13px;
+  color:rgb(255, 255, 255);
+  font-weight:bold;
+  font-family:'Courier New', monospace;
+  padding-right:0;
+  text-align: center;
+  line-height: 80%;
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+p1{
+  font-size:12px;
+  color: black;
+  font-weight:bold;
+  text-align:right;
+  line-height: 85%;
+}
+.button{
+    display: inline-block;
+    font-size:9px;
+    color: white;
+    font-family: Jazz LET, fantasy;
+    background: rgb(0, 162, 255);
+    text-align: center; /* space between buttons */
+    margin-right: 8px;
+}
+b1{
+  border-radius: 8px;
+}
+b2{
+  border-radius: 8px;
+}
+b3{
+  font-size: 30px;
+  border-radius: 8px;
+}
+@keyframes slidein{
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
